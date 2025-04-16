@@ -1,5 +1,5 @@
 package partA;
-
+import partA.Player;
 public class PlayerTest {
     public static String Player() {
         String response = "";
@@ -7,7 +7,8 @@ public class PlayerTest {
         /**
          * Your code goes here
          */
-
+      Player one = new Player();
+      one =
 
         return response;
     }
@@ -15,5 +16,6 @@ public class PlayerTest {
     public static void main(String[] args) {
         String playerOutput = Player();
         System.out.print(playerOutput);
+
     }
 }
