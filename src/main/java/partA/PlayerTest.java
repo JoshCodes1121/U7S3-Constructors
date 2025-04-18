@@ -7,10 +7,15 @@ public class PlayerTest {
         /**
          * Your code goes here
          */
-      Player one = new Player();
-      one =
+
+        Player one = new Player("cam", 2.5, 5);
+
+//      one.setFields("cam", 2.5, 5);
+
+//        System.out.println(one.name+ "\n"+ one.height +  "\n"+ one.yearsInLeague);
 
         return response;
+
     }
 
     public static void main(String[] args) {
