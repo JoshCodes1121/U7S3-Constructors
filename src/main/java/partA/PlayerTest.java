@@ -1,5 +1,6 @@
 package partA;
-import partA.Player;
+
+
 public class PlayerTest {
     public static String Player() {
         String response = "";
@@ -8,11 +9,14 @@ public class PlayerTest {
          * Your code goes here
          */
 
-        Player one = new Player("cam", 2.5, 5);
+//        Player one = new Player();
+//        one.setFields("cam", 2.5, 5);
+//
+//        Player two = new Player();
+//        two.setFields("Karen", 1.2, 15);
 
-//      one.setFields("cam", 2.5, 5);
-
-//        System.out.println(one.name+ "\n"+ one.height +  "\n"+ one.yearsInLeague);
+        Player one2 = new Player("Carl", 2.3, 22);
+        Player two2 = new Player("Katherin", 3.3, 9);
 
         return response;
 

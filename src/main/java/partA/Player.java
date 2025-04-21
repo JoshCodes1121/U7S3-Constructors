@@ -8,14 +8,13 @@ public class Player {
     public int yearsInLeague;
 
     //Constructor
-//Constructor
     public Player(String name, double height, int yearsInLeague){
 //        System.out.println("This is a constructor");
-        name = this.name;
-        height = this.height;
-        yearsInLeague = this.yearsInLeague;
+        this.name = name;
+        this.height = height;
+        this.yearsInLeague = yearsInLeague;
 
-        System.out.println(name +"\n" + height+"\n" + yearsInLeague);
+        System.out.println(name +"\n" + height+"\n" + yearsInLeague+"\n" );
 
     }//end constructor
 
@@ -28,5 +27,8 @@ public class Player {
 //        name = a;
 //        height = b;
 //        yearsInLeague = c;
+//
+//        System.out.println(a + "\n"+ b +  "\n"+ c+  "\n");
+//
 //    }
 }
